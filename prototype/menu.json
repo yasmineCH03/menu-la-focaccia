@@ -6,7 +6,7 @@
     "phone": "+15145271117",
     "phone_label": "514 527-1117",
     "logo": "../site-assets/logo/logo-focaccia-tampon.png",
-    "credits": [{"text": "Photo de salade : Daderot, CC0, Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:Caesar_salad_with_chicken,_homemade_-_Massachusetts.jpg"}]
+    "credits": [{"text": "Photo de salade : Gerda Arendt, CC0, Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:Tomato_salad_with_burrata,_Limburg.jpg"}]
   },
   "sections": [
     {
@@ -82,7 +82,7 @@
       "table": {"caption": "Poutine", "cols": ["Rég.", "Grande"], "rows": [["Classique", "11,75", "16,75"], ["Poulet, champignons, oignons caramélisés", "15,75", "20,75"], ["Poulet pané", "16,75", "21,75"], ["Kebab, piments, champignons", "16,75", "21,75"], ["Merguez, poivrons, oignons caramélisés", "16,75", "21,75"], ["Burrata, tomate, pesto", "19,75", "24,75"]]}
     },
     {
-      "id": "salades", "title": "Salades", "type": "list", "cover": "../site-assets/photos-plats/salade-cesar-wikimedia.jpg",
+      "id": "salades", "title": "Salades", "type": "list", "cover": "../site-assets/photos-plats/salade-burrata-wikimedia.jpg",
       "items": [
         {"name": "César", "desc": "Laitue, tomates cerises, croûtons, poulet grillé, parmesan, huile d’olive, vinaigrette.", "price": "15"},
         {"name": "Burrata", "desc": "Laitue, tomates cerises, oignon rouge, burrata, pesto, basilic, huile d’olive, crème balsamique.", "price": "19"}

@@ -7,4 +7,4 @@ Menu accessible par QR code, en français et en anglais, publié avec GitHub Pag
 2. Régénérer le site : `python prototype/build.py` (nécessite Pillow).
 3. Committer et pousser : GitHub Pages se met à jour tout seul.
 
-Photo de salade : Daderot, CC0, Wikimedia Commons.
+Photo de salade : Gerda Arendt, CC0, Wikimedia Commons.
