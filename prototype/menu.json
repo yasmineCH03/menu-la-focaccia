@@ -1,0 +1,99 @@
+{
+  "restaurant": {
+    "name": "La Focaccia",
+    "tagline": "Pizzeria napolitaine, cuite au feu de bois",
+    "address": "2202 avenue du Mont-Royal Est, Montréal",
+    "phone": "+15145271117",
+    "phone_label": "514 527-1117",
+    "logo": "../site-assets/logo/logo-focaccia-tampon.png",
+    "credits": [{"text": "Photo de salade : Daderot, CC0, Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:Caesar_salad_with_chicken,_homemade_-_Massachusetts.jpg"}]
+  },
+  "sections": [
+    {
+      "id": "pizzas", "title": "Pizzas", "type": "list", "round": true,
+      "note": "Pâte maturée plus de 24 heures, cuite au four à bois.",
+      "items": [
+        {"name": "Margherita", "desc": "Sauce tomate San Marzano AOP, mozzarella, fior di latte, Grana Padano, basilic, origan, huile d’olive.", "price": "18", "extra": "Avec burrata, 8 $ de plus", "img": "../images-uber-eats/pizzas/margherita.jpg"},
+        {"name": "Tonno", "desc": "Sauce tomate San Marzano AOP, mozzarella, fior di latte, thon entier, tomates cerises, olives, roquette, huile d’olive.", "price": "22", "img": "../images-uber-eats/pizzas/tonno.jpg"},
+        {"name": "Pepperoni", "desc": "Sauce tomate San Marzano AOP, mozzarella, fior di latte, pepperoni, Parmigiano Reggiano, roquette, huile d’olive.", "price": "22", "img": "../images-uber-eats/pizzas/pepperoni.jpg"},
+        {"name": "Burrattina", "desc": "Sauce tomate San Marzano AOP, mozzarella, fior di latte, Parmigiano Reggiano, burrata, pesto, basilic, roquette, tomates cerises, huile d’olive.", "price": "28", "img": "../images-uber-eats/pizzas/burrattina.jpg"},
+        {"name": "Siciliana", "desc": "Sauce tomate San Marzano AOP, fior di latte, anchois, câpres, basilic, huile d’olive.", "price": "21", "img": "../images-uber-eats/pizzas/napoli.jpg"},
+        {"name": "Pollo", "desc": "Sauce blanche, mozzarella, fior di latte, Grana Padano, poulet, champignons, roquette, huile d’olive.", "price": "24", "img": "../images-uber-eats/pizzas/pollo.jpg"},
+        {"name": "Bovina", "desc": "Sauce tomate San Marzano AOP, mozzarella, fior di latte, Parmigiano Reggiano, viande hachée, piments, oignons.", "price": "23", "img": "../images-uber-eats/pizzas/bovina.jpg"},
+        {"name": "Salmone", "desc": "Sauce blanche, mozzarella, fior di latte, saumon fumé, crème de balsamique, pesto, noix.", "price": "25", "img": "../images-uber-eats/pizzas/salmone.jpg"},
+        {"name": "La Végétarienne", "desc": "Sauce tomate San Marzano AOP, mozzarella, fior di latte, légumes du jour, huile d’olive.", "price": "21", "img": "../images-uber-eats/pizzas/la-vegetarienne.jpg"},
+        {"name": "La Capra", "desc": "Crème de ricotta, mozzarella, fior di latte, fromage de chèvre, miel, noix.", "price": "23"},
+        {"name": "Norma", "desc": "Sauce tomate San Marzano AOP, mozzarella, fior di latte, Grana Padano, aubergines rôties, basilic, tomates cerises, origan, huile d’olive.", "price": "23", "img": "../images-uber-eats/pizzas/norma.jpg"},
+        {"name": "Mortadella", "desc": "Crème de ricotta, mozzarella, fior di latte, basilic, pistaches concassées, huile d’olive.", "price": "24", "img": "../images-uber-eats/pizzas/mortadella.jpg"},
+        {"name": "Gamberetti", "desc": "Sauce blanche, mozzarella, fior di latte, Grana Padano, crevettes, pesto, tomates cerises, basilic, roquette.", "price": "25", "img": "../images-uber-eats/pizzas/gamberetti.jpg"},
+        {"name": "Angeli & Demoni", "desc": "Sauce tomate San Marzano AOP, mozzarella, fior di latte, Parmigiano Reggiano, stracciatella, poivrons rôtis, oignons rouges, basilic.", "price": "24", "img": "../images-uber-eats/pizzas/angeli-demoni.jpg"},
+        {"name": "7 Fromaggi", "desc": "Sauce blanche, mozzarella, fior di latte, gorgonzola, chèvre, Parmigiano Reggiano, gruyère, raclette.", "price": "25", "img": "../images-uber-eats/pizzas/7-fromaggi.jpg"},
+        {"name": "All Dressed", "desc": "Sauce tomate San Marzano AOP, mozzarella, fior di latte, Parmigiano Reggiano, pepperoni, poivrons, oignons, champignons.", "price": "25"},
+        {"name": "Pizza du chef", "desc": "Sauce tomate San Marzano AOP, mozzarella, fior di latte, crème de parmesan, burrata, mortadella, pistaches concassées, pesto rosso, basilic.", "price": "32"}
+      ]
+    },
+    {
+      "id": "partager", "title": "À partager", "type": "poster",
+      "poster": {"figure": "270 $", "name": "Pizza kilomètre", "line": "La plus grande pizza du Canada, pour les fêtes et les grandes tablées.", "img": "../site-assets/photos-plats/pizza-kilometre.jpg"},
+      "items": [
+        {"name": "Pizza 1 mètre", "desc": "Pour un groupe ou un anniversaire.", "price": "90"},
+        {"name": "Box Panuozzi Cosi", "desc": "Pour 2 : quatre mini sandwichs napolitains (poulet grillé, poulet pané, kebab, thon), frites et 2 boissons.", "price": "45"}
+      ]
+    },
+    {
+      "id": "chef", "title": "Créations du chef", "type": "list",
+      "note": "Prix solo, puis en trio.",
+      "items": [
+        {"name": "El Flouka", "desc": "Croûte farcie à la mozzarella, sauce tomate, sauce focaccia, crème de ricotta, fior di latte, harissa, poulet pané, Parmigiano Reggiano, tomates cerises, roquette, pesto.", "price": "21", "price2": "27", "img": "../images-uber-eats/el-flouka/el-flouka.jpg"},
+        {"name": "El Napoletano", "desc": "Mortadella, burrata, fior di latte, tomates cerises, roquette, pesto, pistache, crème de balsamique.", "price": "21", "price2": "27", "img": "../images-uber-eats/el-flouka/el-napoletano.jpg"}
+      ]
+    },
+    {
+      "id": "sandwichs", "title": "Sandwichs", "type": "breads",
+      "note": "Choisissez le pain, puis la garniture. Mêmes prix pour les trois pains.",
+      "breads": [
+        {"name": "Makloub", "desc": "Mozzarella, laitue, tomate, poivrons rôtis, oignons caramélisés.", "img": "../images-uber-eats/sandwichs/makloub-poulet-grille.jpg"},
+        {"name": "Baguette farcie", "desc": "Sauce blanche, mozzarella, cheddar, harissa.", "img": "../images-uber-eats/sandwichs/baguette-farcie-poulet-grille.jpg"},
+        {"name": "Puccia", "desc": "Sauce focaccia, mozzarella, gruyère, laitue, oignons caramélisés, tomate, poivrons rôtis.", "img": "../images-uber-eats/sandwichs/sandwich-puccia-poulet-grille.jpg"}
+      ],
+      "table": {"caption": "Garniture", "cols": ["Solo", "Trio"], "rows": [["Poulet grillé", "16", "22"], ["Poulet pané", "17", "23"], ["Kebab", "16", "22"], ["Merguez", "17", "23"], ["Thon", "17", "23"]]},
+      "extras": [
+        {"title": "Sauces, 3 au choix", "list": ["Ail", "Algérienne", "Pesto", "Harissa", "Ketchup", "Barbecue", "Mayonnaise"]},
+        {"title": "Extras", "list": [["Poulet grillé", "6"], ["Poulet pané", "6"], ["Kebab", "6"], ["Merguez", "6"], ["Thon", "6"], ["Salade méchouia", "3"]]},
+        {"title": "Extra fromage", "list": [["Raclette", "6"], ["Gruyère", "6"], ["Cheddar", "6"], ["Chèvre", "6"]]}
+      ]
+    },
+    {
+      "id": "calzone", "title": "Calzone", "type": "table",
+      "note": "Sauce tomate, mozzarella, oignon, huile d’olive.",
+      "img": "../images-uber-eats/calzone/calzone-au-thon.jpg",
+      "table": {"caption": "Garniture", "cols": ["Solo", "Trio"], "rows": [["Thon", "15,50", "21,50"], ["Kebab", "15,50", "21,50"], ["Poulet grillé", "15,50", "21,50"]]}
+    },
+    {
+      "id": "ailes", "title": "Ailes de poulet", "type": "table",
+      "note": "Servies avec la sauce à l’ail.",
+      "img": "../images-uber-eats/ailes-de-poulet/6-ailes-de-poulet.jpg",
+      "table": {"caption": "Portion", "cols": ["Prix"], "rows": [["6 ailes", "12"], ["10 ailes", "18"], ["12 ailes", "21"], ["20 ailes", "34"]]},
+      "extras": [{"title": "Autres sauces", "list": [["Algérienne", "2"], ["Buffalo", "2"], ["Focaccia", "2"], ["Barbecue", "2"]]}]
+    },
+    {
+      "id": "poutines", "title": "Poutines", "type": "table",
+      "img": "../images-uber-eats/poutines/poutine-burrata-tomate-et-sauce-pesto.jpg",
+      "table": {"caption": "Poutine", "cols": ["Rég.", "Grande"], "rows": [["Classique", "11,75", "16,75"], ["Poulet, champignons, oignons caramélisés", "15,75", "20,75"], ["Poulet pané", "16,75", "21,75"], ["Kebab, piments, champignons", "16,75", "21,75"], ["Merguez, poivrons, oignons caramélisés", "16,75", "21,75"], ["Burrata, tomate, pesto", "19,75", "24,75"]]}
+    },
+    {
+      "id": "salades", "title": "Salades", "type": "list", "cover": "../site-assets/photos-plats/salade-cesar-wikimedia.jpg",
+      "items": [
+        {"name": "César", "desc": "Laitue, tomates cerises, croûtons, poulet grillé, parmesan, huile d’olive, vinaigrette.", "price": "15"},
+        {"name": "Burrata", "desc": "Laitue, tomates cerises, oignon rouge, burrata, pesto, basilic, huile d’olive, crème balsamique.", "price": "19"}
+      ]
+    },
+    {
+      "id": "desserts", "title": "Desserts", "type": "list",
+      "items": [
+        {"name": "Pizza Nutella et noix", "price": "17", "img": "../images-uber-eats/pizzas/pizza-nutella-et-noix.jpg"},
+        {"name": "Dessert du jour", "desc": "Pâtisserie maison, demandez à l’équipe.", "price": "10", "img": "../site-assets/photos-plats/desserts-maison.jpg"}
+      ]
+    }
+  ]
+}
