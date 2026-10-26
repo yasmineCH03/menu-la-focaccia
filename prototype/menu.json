@@ -417,7 +417,7 @@
       "id": "salades",
       "title": "Salades",
       "type": "list",
-      "cover": "../site-assets/photos-plats/salade-burrata.jpg",
+      "cover": "../site-assets/photos-plats/salade-burrata-bol.jpg",
       "items": [
         {
           "name": "César",
@@ -427,8 +427,7 @@
         {
           "name": "Burrata",
           "desc": "Laitue, tomates cerises, oignon rouge, burrata, pesto, basilic, huile d’olive, crème balsamique.",
-          "price": "19",
-          "img": "../site-assets/photos-plats/salade-burrata.jpg"
+          "price": "19"
         }
       ]
     },
