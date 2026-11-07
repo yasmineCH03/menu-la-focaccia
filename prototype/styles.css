@@ -97,6 +97,13 @@ h3 { font-family: var(--font-body); font-weight: 700; font-size: var(--text-lg);
 .prices-table td.num { font-family: var(--font-display); color: var(--color-ink); }
 .rows + .prices-table, .prices-table + .rows { margin-top: var(--space-lg); }
 
+/* One block per sandwich, each with its own filling table */
+.sandwich + .sandwich { margin-top: var(--space-2xl); }
+.sandwich .rows { border-bottom: 0; }
+.sandwich .row { border-bottom: 0; }
+.sandwich .prices-table { margin-top: var(--space-sm); }
+.group-title { margin-top: var(--space-2xl); padding-top: var(--space-md); border-top: var(--rule-bar) solid var(--color-ink); font-family: var(--font-display); font-weight: var(--display-weight); font-size: var(--text-xl); }
+
 /* Sauces per bread */
 .sauces { margin-top: var(--space-xs); font-size: var(--text-md); color: var(--color-ink); }
 .sauces strong { font-weight: 700; }

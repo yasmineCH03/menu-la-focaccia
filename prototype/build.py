@@ -102,6 +102,10 @@ def extras(xs):
 
 def bread_sauces(b):
     """Sauces comprises dans le pain, puis celles qu'on peut ajouter avec leur prix."""
+    if b.get("sauce_choice"):
+        sc = b["sauce_choice"]
+        chips = "".join(f"<li>{e(t(x))}</li>" for x in sc["list"])
+        return f'<p class="sauces-add">{e(t(sc["title"]))}</p><ul class="chips">{chips}</ul>'
     if not b.get("sauces"):
         return ""
     names = [t(x) for x in b["sauces"]]
@@ -125,15 +129,19 @@ def section(s):
             f'<h3 class="poster-name">{e(t(p["name"]))}</h3><p class="desc">{e(t(p["line"]))}</p></div>'
             f'<div class="screen" aria-hidden="true"></div>{img(p["img"], "")}</div>')
     if s["type"] == "breads":
-        body.append('<ul class="rows">' + "".join(
-            f'<li class="row has-photo"><div class="row-text"><div class="row-head"><h3>{e(t(b["name"]))}</h3></div>'
-            f'<p class="desc">{e(t(b["desc"]))}</p>{bread_sauces(b)}</div>{img(b["img"], "")}</li>' for b in s["breads"]) + "</ul>")
+        # un bloc par sandwich : nom, ingrédients, sauces, puis ses garnitures et prix
+        body.append("".join(
+            f'<div class="sandwich"><ul class="rows"><li class="row has-photo"><div class="row-text"><div class="row-head">'
+            f'<h3>{e(t(b["name"]))}</h3></div><p class="desc">{e(t(b["desc"]))}</p>{bread_sauces(b)}</div>'
+            f'{img(b["img"], "")}</li></ul>{table(s["table"])}</div>' for b in s["breads"]))
     if s["type"] == "table" and s.get("img"):
         body.append(img(s["img"], "", "photo photo-wide"))
-    if s.get("table"):
+    if s.get("table") and s["type"] != "breads":
         body.append(table(s["table"]))
     if s.get("items"):
         body.append('<ul class="rows">' + "".join(item(i) for i in s["items"]) + "</ul>")
+    if s.get("extras_title"):
+        body.append(f'<h3 class="group-title">{e(t(s["extras_title"]))}</h3>')
     if s.get("extras"):
         body.append(extras(s["extras"]))
     cls = ' class="round"' if s.get("round") else ""

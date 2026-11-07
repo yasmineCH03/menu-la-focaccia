@@ -11,7 +11,6 @@
   "Avec burrata, 8 $ de plus": "Add burrata for $8 more",
   "Baguette farcie": "Stuffed baguette",
   "Burrata, tomate, pesto": "Burrata, tomato, pesto",
-  "Choisissez le pain, puis la garniture. Mêmes prix pour les trois pains.": "Pick the bread, then the filling. Same prices for all three breads.",
   "Chèvre": "Goat cheese",
   "Classique": "Classic",
   "Croûte farcie à la mozzarella, sauce tomate, sauce focaccia, crème de ricotta, fior di latte, harissa, poulet pané, Parmigiano Reggiano, tomates cerises, roquette, pesto.": "Mozzarella-stuffed crust, tomato sauce, focaccia sauce, ricotta cream, fior di latte, harissa, breaded chicken, Parmigiano Reggiano, cherry tomatoes, arugula, pesto.",
@@ -124,9 +123,11 @@
     "Tonno",
     "Trio"
   ],
-  "Baguette farcie : sauces, 3 au choix": "Stuffed baguette: sauces, pick 3",
   "Mozzarella, gruyère, laitue, oignons caramélisés, tomate, poivrons rôtis.": "Mozzarella, gruyère, lettuce, caramelized onions, tomato, roasted peppers.",
   "Sauce focaccia": "Focaccia sauce",
   "ui:sauces_in": "Sauces included:",
-  "ui:sauces_add": "Add a sauce"
+  "ui:sauces_add": "Add a sauce",
+  "Sauces, 3 au choix": "Sauces, pick 3",
+  "Pour tous les sandwichs": "For all sandwiches",
+  "Chaque sandwich se commande en solo ou en trio.": "Every sandwich comes solo or as a trio."
 }

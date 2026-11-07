@@ -166,7 +166,7 @@
       "id": "sandwichs",
       "title": "Sandwichs",
       "type": "breads",
-      "note": "Choisissez le pain, puis la garniture. Mêmes prix pour les trois pains.",
+      "note": "Chaque sandwich se commande en solo ou en trio.",
       "breads": [
         {
           "name": "Makloub",
@@ -202,7 +202,19 @@
         {
           "name": "Baguette farcie",
           "desc": "Sauce blanche, mozzarella, cheddar, harissa.",
-          "img": "../images-uber-eats/sandwichs/baguette-farcie-poulet-grille.jpg"
+          "img": "../images-uber-eats/sandwichs/baguette-farcie-poulet-grille.jpg",
+          "sauce_choice": {
+            "title": "Sauces, 3 au choix",
+            "list": [
+              "Ail",
+              "Algérienne",
+              "Pesto",
+              "Harissa",
+              "Ketchup",
+              "Barbecue",
+              "Mayonnaise"
+            ]
+          }
         },
         {
           "name": "Puccia",
@@ -266,18 +278,6 @@
       },
       "extras": [
         {
-          "title": "Baguette farcie : sauces, 3 au choix",
-          "list": [
-            "Ail",
-            "Algérienne",
-            "Pesto",
-            "Harissa",
-            "Ketchup",
-            "Barbecue",
-            "Mayonnaise"
-          ]
-        },
-        {
           "title": "Extras",
           "list": [
             [
@@ -327,7 +327,8 @@
             ]
           ]
         }
-      ]
+      ],
+      "extras_title": "Pour tous les sandwichs"
     },
     {
       "id": "calzone",
