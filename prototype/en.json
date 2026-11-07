@@ -66,7 +66,6 @@
   "Sauce tomate San Marzano AOP, mozzarella, fior di latte, pepperoni, Parmigiano Reggiano, roquette, huile d’olive.": "San Marzano PDO tomato sauce, mozzarella, fior di latte, pepperoni, Parmigiano Reggiano, arugula, olive oil.",
   "Sauce tomate San Marzano AOP, mozzarella, fior di latte, thon entier, tomates cerises, olives, roquette, huile d’olive.": "San Marzano PDO tomato sauce, mozzarella, fior di latte, whole tuna, cherry tomatoes, olives, arugula, olive oil.",
   "Sauce tomate, mozzarella, oignon, huile d’olive.": "Tomato sauce, mozzarella, onion, olive oil.",
-  "Sauces, 3 au choix": "Sauces, pick 3",
   "Servies avec la sauce à l’ail.": "Served with garlic sauce.",
   "Thon": "Tuna",
   "À partager": "To share",
@@ -124,5 +123,10 @@
     "Solo",
     "Tonno",
     "Trio"
-  ]
+  ],
+  "Baguette farcie : sauces, 3 au choix": "Stuffed baguette: sauces, pick 3",
+  "Mozzarella, gruyère, laitue, oignons caramélisés, tomate, poivrons rôtis.": "Mozzarella, gruyère, lettuce, caramelized onions, tomato, roasted peppers.",
+  "Sauce focaccia": "Focaccia sauce",
+  "ui:sauces_in": "Sauces included:",
+  "ui:sauces_add": "Add a sauce"
 }

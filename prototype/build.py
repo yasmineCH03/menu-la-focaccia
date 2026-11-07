@@ -26,6 +26,8 @@ FR_UI = {
     "ui:currency": "Prix en dollars canadiens, taxes en sus.",
     "ui:allergy": "Une allergie ? Parlez-en à l’équipe avant de commander.",
     "ui:lang": "Langue",
+    "ui:sauces_in": "Sauces incluses :",
+    "ui:sauces_add": "Ajouter une sauce",
 }
 PAGES = {"fr": "index.html", "en": "en.html"}
 lang = "fr"
@@ -98,6 +100,20 @@ def extras(xs):
     return "".join(out)
 
 
+def bread_sauces(b):
+    """Sauces comprises dans le pain, puis celles qu'on peut ajouter avec leur prix."""
+    if not b.get("sauces"):
+        return ""
+    names = [t(x) for x in b["sauces"]]
+    # minuscules au milieu de la liste, sauf les adjectifs de nationalité en anglais (Algerian)
+    names = [n if (i == 0 or (lang == "en" and n == "Algerian")) else n.lower() for i, n in enumerate(names)]
+    out = f'<p class="sauces"><strong>{t("ui:sauces_in")}</strong> {e(", ".join(names))}.</p>'
+    if b.get("sauce_options"):
+        chips = "".join(f'<li>{e(t(n))} <span class="num">{money(v)}</span></li>' for n, v in b["sauce_options"])
+        out += f'<p class="sauces-add">{t("ui:sauces_add")}</p><ul class="chips">{chips}</ul>'
+    return out
+
+
 def section(s):
     body = []
     if s.get("note"):
@@ -111,7 +127,7 @@ def section(s):
     if s["type"] == "breads":
         body.append('<ul class="rows">' + "".join(
             f'<li class="row has-photo"><div class="row-text"><div class="row-head"><h3>{e(t(b["name"]))}</h3></div>'
-            f'<p class="desc">{e(t(b["desc"]))}</p></div>{img(b["img"], "")}</li>' for b in s["breads"]) + "</ul>")
+            f'<p class="desc">{e(t(b["desc"]))}</p>{bread_sauces(b)}</div>{img(b["img"], "")}</li>' for b in s["breads"]) + "</ul>")
     if s["type"] == "table" and s.get("img"):
         body.append(img(s["img"], "", "photo photo-wide"))
     if s.get("table"):

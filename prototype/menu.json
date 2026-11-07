@@ -171,7 +171,33 @@
         {
           "name": "Makloub",
           "desc": "Mozzarella, laitue, tomate, poivrons rôtis, oignons caramélisés.",
-          "img": "../images-uber-eats/sandwichs/makloub-poulet-grille.jpg"
+          "img": "../images-uber-eats/sandwichs/makloub-poulet-grille.jpg",
+          "sauces": [
+            "Ail",
+            "Algérienne"
+          ],
+          "sauce_options": [
+            [
+              "Harissa",
+              "0"
+            ],
+            [
+              "Ketchup",
+              "0"
+            ],
+            [
+              "Barbecue",
+              "2"
+            ],
+            [
+              "Sauce focaccia",
+              "2"
+            ],
+            [
+              "Pesto",
+              "2"
+            ]
+          ]
         },
         {
           "name": "Baguette farcie",
@@ -180,8 +206,28 @@
         },
         {
           "name": "Puccia",
-          "desc": "Sauce focaccia, mozzarella, gruyère, laitue, oignons caramélisés, tomate, poivrons rôtis.",
-          "img": "../images-uber-eats/sandwichs/sandwich-puccia-poulet-grille.jpg"
+          "desc": "Mozzarella, gruyère, laitue, oignons caramélisés, tomate, poivrons rôtis.",
+          "img": "../images-uber-eats/sandwichs/sandwich-puccia-poulet-grille.jpg",
+          "sauces": [
+            "Ail",
+            "Algérienne",
+            "Pesto",
+            "Sauce focaccia"
+          ],
+          "sauce_options": [
+            [
+              "Harissa",
+              "0"
+            ],
+            [
+              "Ketchup",
+              "0"
+            ],
+            [
+              "Barbecue",
+              "2"
+            ]
+          ]
         }
       ],
       "table": {
@@ -220,7 +266,7 @@
       },
       "extras": [
         {
-          "title": "Sauces, 3 au choix",
+          "title": "Baguette farcie : sauces, 3 au choix",
           "list": [
             "Ail",
             "Algérienne",

@@ -97,6 +97,11 @@ h3 { font-family: var(--font-body); font-weight: 700; font-size: var(--text-lg);
 .prices-table td.num { font-family: var(--font-display); color: var(--color-ink); }
 .rows + .prices-table, .prices-table + .rows { margin-top: var(--space-lg); }
 
+/* Sauces per bread */
+.sauces { margin-top: var(--space-xs); font-size: var(--text-md); color: var(--color-ink); }
+.sauces strong { font-weight: 700; }
+.sauces-add { margin: var(--space-sm) 0 var(--space-xs); font-size: var(--text-sm); font-weight: 500; color: var(--color-muted); }
+
 /* Sauces and extras */
 .extras { margin-top: var(--space-lg); }
 .chips { display: flex; flex-wrap: wrap; gap: var(--space-xs); list-style: none; margin: 0; padding: 0; }
