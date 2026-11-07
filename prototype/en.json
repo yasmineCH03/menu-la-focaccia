@@ -29,7 +29,6 @@
   "Laitue, tomates cerises, oignon rouge, burrata, pesto, basilic, huile d’olive, crème balsamique.": "Lettuce, cherry tomatoes, red onion, burrata, pesto, basil, olive oil, balsamic cream.",
   "Merguez, poivrons, oignons caramélisés": "Merguez, peppers, caramelized onions",
   "Mortadella, burrata, fior di latte, tomates cerises, roquette, pesto, pistache, crème de balsamique.": "Mortadella, burrata, fior di latte, cherry tomatoes, arugula, pesto, pistachio, balsamic cream.",
-  "Mozzarella, laitue, tomate, poivrons rôtis, oignons caramélisés.": "Mozzarella, lettuce, tomato, roasted peppers, caramelized onions.",
   "Pizza 1 mètre": "1-metre pizza",
   "Pizza Nutella et noix": "Nutella and walnut pizza",
   "Pizza du chef": "Chef’s pizza",
@@ -123,11 +122,7 @@
     "Tonno",
     "Trio"
   ],
-  "Mozzarella, gruyère, laitue, oignons caramélisés, tomate, poivrons rôtis.": "Mozzarella, gruyère, lettuce, caramelized onions, tomato, roasted peppers.",
-  "Sauce focaccia": "Focaccia sauce",
-  "ui:sauces_in": "Sauces included:",
-  "Sauces, 3 au choix": "Sauces, pick 3",
-  "ui:sauces_free": "Free sauces",
-  "ui:sauces_paid": "Paid sauces",
-  "ui:solo_trio": "Solo or as a trio."
+  "ui:solo_trio": "Solo or as a trio.",
+  "Sauce à l’ail, sauce algérienne, mozzarella, laitue, tomate, poivrons rôtis, oignons caramélisés.": "Garlic sauce, Algerian sauce, mozzarella, lettuce, tomato, roasted peppers, caramelized onions.",
+  "Sauce à l’ail, sauce algérienne, pesto, sauce focaccia, mozzarella, gruyère, laitue, oignons caramélisés, tomate, poivrons rôtis.": "Garlic sauce, Algerian sauce, pesto, focaccia sauce, mozzarella, gruyère, lettuce, caramelized onions, tomato, roasted peppers."
 }

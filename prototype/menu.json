@@ -166,34 +166,8 @@
       "id": "makloub",
       "title": "Makloub",
       "type": "sandwich",
-      "note": "Mozzarella, laitue, tomate, poivrons rôtis, oignons caramélisés.",
+      "note": "Sauce à l’ail, sauce algérienne, mozzarella, laitue, tomate, poivrons rôtis, oignons caramélisés.",
       "img": "../images-uber-eats/sandwichs/makloub-poulet-grille.jpg",
-      "sauces": [
-        "Ail",
-        "Algérienne"
-      ],
-      "sauce_options": [
-        [
-          "Harissa",
-          "0"
-        ],
-        [
-          "Ketchup",
-          "0"
-        ],
-        [
-          "Barbecue",
-          "2"
-        ],
-        [
-          "Sauce focaccia",
-          "2"
-        ],
-        [
-          "Pesto",
-          "2"
-        ]
-      ],
       "table": {
         "caption": "Garniture",
         "cols": [
@@ -287,18 +261,6 @@
       "type": "sandwich",
       "note": "Sauce blanche, mozzarella, cheddar, harissa.",
       "img": "../images-uber-eats/sandwichs/baguette-farcie-poulet-grille.jpg",
-      "sauce_choice": {
-        "title": "Sauces, 3 au choix",
-        "list": [
-          "Ail",
-          "Algérienne",
-          "Pesto",
-          "Harissa",
-          "Ketchup",
-          "Barbecue",
-          "Mayonnaise"
-        ]
-      },
       "table": {
         "caption": "Garniture",
         "cols": [
@@ -390,28 +352,8 @@
       "id": "puccia",
       "title": "Puccia",
       "type": "sandwich",
-      "note": "Mozzarella, gruyère, laitue, oignons caramélisés, tomate, poivrons rôtis.",
+      "note": "Sauce à l’ail, sauce algérienne, pesto, sauce focaccia, mozzarella, gruyère, laitue, oignons caramélisés, tomate, poivrons rôtis.",
       "img": "../images-uber-eats/sandwichs/sandwich-puccia-poulet-grille.jpg",
-      "sauces": [
-        "Ail",
-        "Algérienne",
-        "Pesto",
-        "Sauce focaccia"
-      ],
-      "sauce_options": [
-        [
-          "Harissa",
-          "0"
-        ],
-        [
-          "Ketchup",
-          "0"
-        ],
-        [
-          "Barbecue",
-          "2"
-        ]
-      ],
       "table": {
         "caption": "Garniture",
         "cols": [

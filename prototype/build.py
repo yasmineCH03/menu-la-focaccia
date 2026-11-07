@@ -145,7 +145,8 @@ def section(s):
     if s["type"] == "sandwich":
         # une section par sandwich : photo, sauces, puis garnitures et prix
         body.insert(0, img(s["img"], "", "photo photo-wide"))
-        body.append(f'<div class="sauce-box">{bread_sauces(s)}</div>')
+        if bread_sauces(s):
+            body.append(f'<div class="sauce-box">{bread_sauces(s)}</div>')
         body.append(f'<p class="note">{t("ui:solo_trio")}</p>')
     if s["type"] == "table" and s.get("img"):
         body.append(img(s["img"], "", "photo photo-wide"))
