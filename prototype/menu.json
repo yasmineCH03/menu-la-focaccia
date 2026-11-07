@@ -285,7 +285,7 @@
       "id": "baguette",
       "title": "Baguette farcie",
       "type": "sandwich",
-      "note": "Sauce blanche, mozzarella, cheddar, harissa.",
+      "note": "Mozzarella, cheddar.",
       "img": "../images-uber-eats/sandwichs/baguette-farcie-poulet-grille.jpg",
       "table": {
         "caption": "Garniture",

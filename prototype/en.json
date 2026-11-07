@@ -47,7 +47,6 @@
   "Rég.": "Reg.",
   "Salade méchouia": "Méchouia salad",
   "Salades": "Salads",
-  "Sauce blanche, mozzarella, cheddar, harissa.": "White sauce, mozzarella, cheddar, harissa.",
   "Sauce blanche, mozzarella, fior di latte, Grana Padano, crevettes, pesto, tomates cerises, basilic, roquette.": "White sauce, mozzarella, fior di latte, Grana Padano, shrimp, pesto, cherry tomatoes, basil, arugula.",
   "Sauce blanche, mozzarella, fior di latte, Grana Padano, poulet, champignons, roquette, huile d’olive.": "White sauce, mozzarella, fior di latte, Grana Padano, chicken, mushrooms, arugula, olive oil.",
   "Sauce blanche, mozzarella, fior di latte, gorgonzola, chèvre, Parmigiano Reggiano, gruyère, raclette.": "White sauce, mozzarella, fior di latte, gorgonzola, goat cheese, Parmigiano Reggiano, gruyère, raclette.",
@@ -128,5 +127,6 @@
   "ui:sauces_in": "Sauces included:",
   "ui:sauces_free": "Free sauces",
   "ui:sauces_paid": "Paid sauces",
-  "ui:solo_trio": "Solo or as a trio."
+  "ui:solo_trio": "Solo or as a trio.",
+  "Mozzarella, cheddar.": "Mozzarella, cheddar."
 }
