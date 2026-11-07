@@ -126,8 +126,8 @@
   "Mozzarella, gruyère, laitue, oignons caramélisés, tomate, poivrons rôtis.": "Mozzarella, gruyère, lettuce, caramelized onions, tomato, roasted peppers.",
   "Sauce focaccia": "Focaccia sauce",
   "ui:sauces_in": "Sauces included:",
-  "ui:sauces_add": "Add a sauce",
   "Sauces, 3 au choix": "Sauces, pick 3",
-  "Pour tous les sandwichs": "For all sandwiches",
-  "Chaque sandwich se commande en solo ou en trio.": "Every sandwich comes solo or as a trio."
+  "ui:sauces_free": "Free sauces",
+  "ui:sauces_paid": "Paid sauces",
+  "ui:solo_trio": "Solo or as a trio."
 }

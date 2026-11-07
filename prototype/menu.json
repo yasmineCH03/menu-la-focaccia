@@ -163,84 +163,36 @@
       ]
     },
     {
-      "id": "sandwichs",
-      "title": "Sandwichs",
-      "type": "breads",
-      "note": "Chaque sandwich se commande en solo ou en trio.",
-      "breads": [
-        {
-          "name": "Makloub",
-          "desc": "Mozzarella, laitue, tomate, poivrons rôtis, oignons caramélisés.",
-          "img": "../images-uber-eats/sandwichs/makloub-poulet-grille.jpg",
-          "sauces": [
-            "Ail",
-            "Algérienne"
-          ],
-          "sauce_options": [
-            [
-              "Harissa",
-              "0"
-            ],
-            [
-              "Ketchup",
-              "0"
-            ],
-            [
-              "Barbecue",
-              "2"
-            ],
-            [
-              "Sauce focaccia",
-              "2"
-            ],
-            [
-              "Pesto",
-              "2"
-            ]
-          ]
-        },
-        {
-          "name": "Baguette farcie",
-          "desc": "Sauce blanche, mozzarella, cheddar, harissa.",
-          "img": "../images-uber-eats/sandwichs/baguette-farcie-poulet-grille.jpg",
-          "sauce_choice": {
-            "title": "Sauces, 3 au choix",
-            "list": [
-              "Ail",
-              "Algérienne",
-              "Pesto",
-              "Harissa",
-              "Ketchup",
-              "Barbecue",
-              "Mayonnaise"
-            ]
-          }
-        },
-        {
-          "name": "Puccia",
-          "desc": "Mozzarella, gruyère, laitue, oignons caramélisés, tomate, poivrons rôtis.",
-          "img": "../images-uber-eats/sandwichs/sandwich-puccia-poulet-grille.jpg",
-          "sauces": [
-            "Ail",
-            "Algérienne",
-            "Pesto",
-            "Sauce focaccia"
-          ],
-          "sauce_options": [
-            [
-              "Harissa",
-              "0"
-            ],
-            [
-              "Ketchup",
-              "0"
-            ],
-            [
-              "Barbecue",
-              "2"
-            ]
-          ]
-        }
+      "id": "makloub",
+      "title": "Makloub",
+      "type": "sandwich",
+      "note": "Mozzarella, laitue, tomate, poivrons rôtis, oignons caramélisés.",
+      "img": "../images-uber-eats/sandwichs/makloub-poulet-grille.jpg",
+      "sauces": [
+        "Ail",
+        "Algérienne"
+      ],
+      "sauce_options": [
+        [
+          "Harissa",
+          "0"
+        ],
+        [
+          "Ketchup",
+          "0"
+        ],
+        [
+          "Barbecue",
+          "2"
+        ],
+        [
+          "Sauce focaccia",
+          "2"
+        ],
+        [
+          "Pesto",
+          "2"
+        ]
       ],
       "table": {
         "caption": "Garniture",
@@ -327,8 +279,225 @@
             ]
           ]
         }
+      ]
+    },
+    {
+      "id": "baguette",
+      "title": "Baguette farcie",
+      "type": "sandwich",
+      "note": "Sauce blanche, mozzarella, cheddar, harissa.",
+      "img": "../images-uber-eats/sandwichs/baguette-farcie-poulet-grille.jpg",
+      "sauce_choice": {
+        "title": "Sauces, 3 au choix",
+        "list": [
+          "Ail",
+          "Algérienne",
+          "Pesto",
+          "Harissa",
+          "Ketchup",
+          "Barbecue",
+          "Mayonnaise"
+        ]
+      },
+      "table": {
+        "caption": "Garniture",
+        "cols": [
+          "Solo",
+          "Trio"
+        ],
+        "rows": [
+          [
+            "Poulet grillé",
+            "16",
+            "22"
+          ],
+          [
+            "Poulet pané",
+            "17",
+            "23"
+          ],
+          [
+            "Kebab",
+            "16",
+            "22"
+          ],
+          [
+            "Merguez",
+            "17",
+            "23"
+          ],
+          [
+            "Thon",
+            "17",
+            "23"
+          ]
+        ]
+      },
+      "extras": [
+        {
+          "title": "Extras",
+          "list": [
+            [
+              "Poulet grillé",
+              "6"
+            ],
+            [
+              "Poulet pané",
+              "6"
+            ],
+            [
+              "Kebab",
+              "6"
+            ],
+            [
+              "Merguez",
+              "6"
+            ],
+            [
+              "Thon",
+              "6"
+            ],
+            [
+              "Salade méchouia",
+              "3"
+            ]
+          ]
+        },
+        {
+          "title": "Extra fromage",
+          "list": [
+            [
+              "Raclette",
+              "6"
+            ],
+            [
+              "Gruyère",
+              "6"
+            ],
+            [
+              "Cheddar",
+              "6"
+            ],
+            [
+              "Chèvre",
+              "6"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "puccia",
+      "title": "Puccia",
+      "type": "sandwich",
+      "note": "Mozzarella, gruyère, laitue, oignons caramélisés, tomate, poivrons rôtis.",
+      "img": "../images-uber-eats/sandwichs/sandwich-puccia-poulet-grille.jpg",
+      "sauces": [
+        "Ail",
+        "Algérienne",
+        "Pesto",
+        "Sauce focaccia"
       ],
-      "extras_title": "Pour tous les sandwichs"
+      "sauce_options": [
+        [
+          "Harissa",
+          "0"
+        ],
+        [
+          "Ketchup",
+          "0"
+        ],
+        [
+          "Barbecue",
+          "2"
+        ]
+      ],
+      "table": {
+        "caption": "Garniture",
+        "cols": [
+          "Solo",
+          "Trio"
+        ],
+        "rows": [
+          [
+            "Poulet grillé",
+            "16",
+            "22"
+          ],
+          [
+            "Poulet pané",
+            "17",
+            "23"
+          ],
+          [
+            "Kebab",
+            "16",
+            "22"
+          ],
+          [
+            "Merguez",
+            "17",
+            "23"
+          ],
+          [
+            "Thon",
+            "17",
+            "23"
+          ]
+        ]
+      },
+      "extras": [
+        {
+          "title": "Extras",
+          "list": [
+            [
+              "Poulet grillé",
+              "6"
+            ],
+            [
+              "Poulet pané",
+              "6"
+            ],
+            [
+              "Kebab",
+              "6"
+            ],
+            [
+              "Merguez",
+              "6"
+            ],
+            [
+              "Thon",
+              "6"
+            ],
+            [
+              "Salade méchouia",
+              "3"
+            ]
+          ]
+        },
+        {
+          "title": "Extra fromage",
+          "list": [
+            [
+              "Raclette",
+              "6"
+            ],
+            [
+              "Gruyère",
+              "6"
+            ],
+            [
+              "Cheddar",
+              "6"
+            ],
+            [
+              "Chèvre",
+              "6"
+            ]
+          ]
+        }
+      ]
     },
     {
       "id": "calzone",

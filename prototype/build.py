@@ -27,7 +27,9 @@ FR_UI = {
     "ui:allergy": "Une allergie ? Parlez-en à l’équipe avant de commander.",
     "ui:lang": "Langue",
     "ui:sauces_in": "Sauces incluses :",
-    "ui:sauces_add": "Ajouter une sauce",
+    "ui:sauces_free": "Sauces gratuites",
+    "ui:sauces_paid": "Sauces payantes",
+    "ui:solo_trio": "En solo ou en trio.",
 }
 PAGES = {"fr": "index.html", "en": "en.html"}
 lang = "fr"
@@ -112,9 +114,15 @@ def bread_sauces(b):
     # minuscules au milieu de la liste, sauf les adjectifs de nationalité en anglais (Algerian)
     names = [n if (i == 0 or (lang == "en" and n == "Algerian")) else n.lower() for i, n in enumerate(names)]
     out = f'<p class="sauces"><strong>{t("ui:sauces_in")}</strong> {e(", ".join(names))}.</p>'
-    if b.get("sauce_options"):
-        chips = "".join(f'<li>{e(t(n))} <span class="num">{money(v)}</span></li>' for n, v in b["sauce_options"])
-        out += f'<p class="sauces-add">{t("ui:sauces_add")}</p><ul class="chips">{chips}</ul>'
+    opts = b.get("sauce_options", [])
+    free = [n for n, v in opts if float(str(v).replace(",", ".")) == 0]
+    paid = [(n, v) for n, v in opts if float(str(v).replace(",", ".")) > 0]
+    if free:
+        chips = "".join(f"<li>{e(t(n))}</li>" for n in free)
+        out += f'<p class="sauces-add">{t("ui:sauces_free")}</p><ul class="chips">{chips}</ul>'
+    if paid:
+        chips = "".join(f'<li>{e(t(n))} <span class="num">{money(v)}</span></li>' for n, v in paid)
+        out += f'<p class="sauces-add">{t("ui:sauces_paid")}</p><ul class="chips">{chips}</ul>'
     return out
 
 
@@ -134,6 +142,11 @@ def section(s):
             f'<div class="sandwich"><ul class="rows"><li class="row has-photo"><div class="row-text"><div class="row-head">'
             f'<h3>{e(t(b["name"]))}</h3></div><p class="desc">{e(t(b["desc"]))}</p>{bread_sauces(b)}</div>'
             f'{img(b["img"], "")}</li></ul>{table(s["table"])}</div>' for b in s["breads"]))
+    if s["type"] == "sandwich":
+        # une section par sandwich : photo, sauces, puis garnitures et prix
+        body.insert(0, img(s["img"], "", "photo photo-wide"))
+        body.append(f'<div class="sauce-box">{bread_sauces(s)}</div>')
+        body.append(f'<p class="note">{t("ui:solo_trio")}</p>')
     if s["type"] == "table" and s.get("img"):
         body.append(img(s["img"], "", "photo photo-wide"))
     if s.get("table") and s["type"] != "breads":
